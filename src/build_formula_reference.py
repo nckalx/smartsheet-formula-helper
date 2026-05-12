@@ -19,6 +19,8 @@ OUTPUT_FILE = PROJECT_ROOT / "output" / "formula_reference.md"
 
 def read_formula_requests(input_file=INPUT_FILE):
     """Read formula request examples from CSV and validate required columns."""
+    input_file = Path(input_file)
+
     if not input_file.exists():
         raise FileNotFoundError(f"Input file not found: {input_file}")
 

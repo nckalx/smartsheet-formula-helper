@@ -43,7 +43,7 @@ class FormulaReferenceTests(unittest.TestCase):
         with self.temporary_folder() as folder:
             csv_path = self.write_csv(folder, [row])
 
-            rows = read_formula_requests(csv_path)
+            rows = read_formula_requests(str(csv_path))
 
         self.assertEqual(len(rows), 1)
         self.assertEqual(
