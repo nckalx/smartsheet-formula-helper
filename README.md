@@ -92,6 +92,12 @@ Formula types: 5
 - Text Formula
 - Text/Number Formula
 
+## Screenshot
+
+Example terminal output after generating the Smartsheet formula reference guide:
+
+![Formula reference output](assets/formula-reference-output.png)
+
 ## Why This Matters
 
 This project demonstrates how a project controls professional can use AI-assisted development to turn repeated business logic into reusable workflow documentation.
