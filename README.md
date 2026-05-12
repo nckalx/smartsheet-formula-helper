@@ -130,3 +130,17 @@ This is Project #2 in an AI portfolio focused on practical project controls auto
 Project #1: Schedule Movement Analyzer
 
 Project #2: Smartsheet Formula Helper
+
+## How to Run Tests
+
+This project uses Python's built-in `unittest` module.
+
+From the project folder, run:
+
+`python -m unittest discover -s tests`
+
+Expected output:
+
+`Ran 4 tests`
+
+`OK`
